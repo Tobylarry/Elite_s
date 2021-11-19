@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: purple;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+    padding-top: 120px;
+    text-align: center;
+}
+
+.time {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5px;
+}
+
+.time2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.time3 {
+    display: flex;
+    justify-content: center;
+}
+
+.time nav p {
+    color: white;
+    margin-bottom: -35px;
+    padding-top: 20px;
+    letter-spacing: 5px;
+}
+
+.time2 nav p {
+    color: white;
+    margin-top: -34px;
+    padding-bottom: 20px;
+    letter-spacing: 5px;
+}
+
+.para1 {
+    font-size: 55px;
+    text-align: center;
+}
+
+.time nav {
+    margin-right: 60px;
+    background-color: purple;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    width: 120px;
+    height: auto;
+}
+
+.time2 nav {
+    margin-right: 60px;
+    background-color: purple;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    width: 120px;
+    height: auto;
+}
+
+.time3 p {
+    margin-right: 60px;
+    color: purple;
+    position: relative;
+    width: 120px;
+    height: auto;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-self: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.socials div {
+    margin-right: 10px;
+    font-size: 22px;
+    padding: 10px;
+}
+
+.socials div a:hover {
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+    background: purple;
+    color: white;
+    padding: 10px;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 10px;
+    line-height: 20px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+img {
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        padding-top: 100px;
+    }
+    h1 {
+        font-size: 16px;
+    }
+    img {
+        width: 140px;
+        height: 120px;
+    }
+    p {
+        font-size: 10px;
+    }
+    .time nav p {
+        color: white;
+        margin-bottom: -27px;
+        padding-top: 17px;
+        letter-spacing: 5px;
+    }
+    .time2 nav p {
+        color: white;
+        margin-top: -26px;
+        padding-bottom: 17px;
+        letter-spacing: 5px;
+    }
+    .para1 {
+        font-size: 45px;
+        text-align: center;
+    }
+    .time nav {
+        margin-right: 25px;
+        width: 80px;
+    }
+    .time2 nav {
+        margin-right: 25px;
+        width: 80px;
+    }
+    .socials div {
+        margin-right: 5px;
+        font-size: 18px;
+        padding: 5px;
+    }
+    .socials div a:hover {
+        font-size: 22px;
+    }
+    a {
+        text-decoration: none;
+        background: purple;
+        color: white;
+        padding: 4px;
+    }
+    .time3 p {
+        margin-right: 30px;
+        color: purple;
+        position: relative;
+        width: 80px;
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 800px) {
+    .container {
+        padding-top: 100px;
+    }
+    h1 {
+        font-size: 19px;
+    }
+    img {
+        width: 170px;
+        height: 140px;
+    }
+    p {
+        font-size: 13px;
+    }
+    .time nav p {
+        color: white;
+        margin-bottom: -34px;
+        padding-top: 17px;
+        letter-spacing: 5px;
+    }
+    .time2 nav p {
+        color: white;
+        margin-top: -33px;
+        padding-bottom: 17px;
+        letter-spacing: 5px;
+    }
+    .para1 {
+        font-size: 55px;
+        text-align: center;
+    }
+}
+
+.socials div {
+    margin-right: 5px;
+    font-size: 19px;
+    padding: 5px;
+}
+
+.socials div a:hover {
+    font-size: 23px;
+}
+
+a {
+    text-decoration: none;
+    background: purple;
+    color: white;
+    padding: 5px;
+}
